@@ -1,6 +1,50 @@
 * {
-  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.navigation {
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  border-bottom: 1px solid #828282;
+  width: 970px;
+
+}
+
+.row {
+  gap: 40px;
+}
+
+.home {
+  font-weight: 400;
+  font-size: 18px;
+  color: #070707;
+
+}
+
+.other_links {
+  font-weight: 400;
+  font-size: 18px;
+  color: #828282;
+
 }
 
 

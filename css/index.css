@@ -7,7 +7,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background: #FFFFFF;
-  width: 1440px;
+  width: 1920px;
 }
 
 a {
@@ -69,7 +69,7 @@ a {
 .about {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  width: 1920px;
   margin: auto;
   background: #F6F6F6;
   height: 500px
@@ -113,6 +113,38 @@ p {
   margin: auto;
   flex-direction: row;
   justify-content: center;
+  gap: 96px;
+  padding-top: 50px;
 }
 
+.portfolio {
+  width: 1920px;
+  height: 2268px;
+  background: #F6F6F6;
+  flex-direction: column;
+  margin: auto;
+}
+
+.portfolio_container {
+  text-align: center;
+}
+
+.portfolio_text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.banners {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 150px;
+  background: #F6F6F6;
+}
+
+.prod_links {
+  color: #070707;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
 

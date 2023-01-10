@@ -7,7 +7,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background: #FFFFFF;
-  width: 1920px;
+  width: 100%;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
   flex-direction: row;
   align-items: flex-start;
   border-bottom: 1px solid #828282;
-  width: 1286px;
+  width: 51%;
 
 }
 
@@ -62,21 +62,21 @@ a {
 .container {
   display: flex;
   flex-direction: column;
-  width: 1286px;
+  width: 970px;
   margin: auto;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100%;
   margin: auto;
   background: #F6F6F6;
   height: 500px
 }
 
 .about_container {
-  width: 1286px;
+  width: 89%;
   margin: auto;
   flex-direction: column;
 
@@ -88,10 +88,6 @@ h2 {
   font-size: 34px;
   line-height: 46px;
 }
-
-h3 {
-}
-
 
 article {
   text-align: center;
@@ -118,7 +114,7 @@ p {
 }
 
 .portfolio {
-  width: 1920px;
+  width: 100%;
   background: #F6F6F6;
   flex-direction: column;
   margin: auto;
@@ -147,6 +143,33 @@ p {
   text-align: center;
 }
 
+.contacts {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  margin: auto;
+
+}
+
+.contacts_container {
+  width: 89%;
+  height: 400px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.button {
+  text-align: center;
+}
+
+.social_links {
+  margin: auto;
+  width: 89%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
 .messagebutton {
   width: 180px;
   height: 44px;
@@ -160,10 +183,12 @@ p {
   color: #ffffff;
   font-size: 12px;
   border-radius: 22px;
-
 }
 
-.social {
-
+.icons {
+  width: 40px;
+  height: 40px;
 }
+
+
 
